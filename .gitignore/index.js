@@ -72,7 +72,7 @@ client.on('message', message => {
 
 const fs = require('fs');
 
-client.login("NzIzMzgyNjE5ODM5OTIyMjI3.Xuw0lQ.LeZl5Pt6ckQPk4xM7UMoYQeSwaA");
+client.login("process.env.TOKEN");
 
 client.commands = new Discord.Collection();
 
